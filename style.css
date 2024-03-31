@@ -1,0 +1,98 @@
+@media screen and (max-width: 1150px) {
+  #immg {
+    padding: top 5px;
+  }
+}
+
+#div1 {
+  border-left: 4px solid red;
+}
+
+#div2 {
+  border-left: 4px solid red;
+}
+
+@media screen and (max-width: 1150px) {
+  #div2 {
+    margin-top: 5px;
+  }
+}
+
+#background-color {
+  background-image: url(bootstrap-1/wave2.png);
+  background-repeat: no-repeat;
+  background-color: purple;
+  height: 500px;
+  align-items: center;
+}
+
+#top {
+  position: relative;
+  top: 170px;
+}
+
+@media screen and (max-width: 770px) {
+  #top {
+    top: 130px;
+  }
+
+  #background-color {
+    height: 720px;
+  }
+}
+
+@media screen and (max-width: 597px) {
+  #background-color {
+    height: 720px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #background-color {
+    height: 800px;
+  }
+}
+@media screen and (max-width: 338px) {
+  #background-color {
+    height: 820px;
+  }
+}
+@media screen and (max-width: 380px) {
+  #background-color {
+    height: 820px;
+  }
+}
+@media screen and (max-width: 290px) {
+  #background-color {
+    height: 880px;
+  }
+}
+@media screen and (max-width: 200px) {
+  #background-color {
+    height: 880px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #background-color {
+    height: 880px;
+  }
+}
+
+#footer {
+  height: 50px;
+  background-color: grey;
+  align-items: center;
+}
+
+#logos {
+  justify-content: center;
+  padding-left: 125px;
+}
+
+#why {
+  margin-top: 50px;
+}
+
+#social {
+  margin-top: 50px;
+}
